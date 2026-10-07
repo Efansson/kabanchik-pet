@@ -1,0 +1,158 @@
+{
+  "name": "Кабанчик",
+  "slug": "kabanchik",
+  "description": "A curious, determined little charcoal boar with amber eyes and ivory tusks.",
+  "image": "assets/kabanchik.png",
+  "spriteVersionNumber": 2,
+  "width": 1536,
+  "height": 2288,
+  "columns": 8,
+  "rows": 11,
+  "cellWidth": 192,
+  "cellHeight": 208,
+  "animations": {
+    "idle": {
+      "row": 0,
+      "frames": 6,
+      "durationsMs": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ]
+    },
+    "running-right": {
+      "row": 1,
+      "frames": 8,
+      "durationsMs": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    "running-left": {
+      "row": 2,
+      "frames": 8,
+      "durationsMs": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    "waving": {
+      "row": 3,
+      "frames": 4,
+      "durationsMs": [
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    "jumping": {
+      "row": 4,
+      "frames": 5,
+      "durationsMs": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    "failed": {
+      "row": 5,
+      "frames": 8,
+      "durationsMs": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ]
+    },
+    "waiting": {
+      "row": 6,
+      "frames": 6,
+      "durationsMs": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ]
+    },
+    "running": {
+      "row": 7,
+      "frames": 6,
+      "durationsMs": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    "review": {
+      "row": 8,
+      "frames": 6,
+      "durationsMs": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ]
+    }
+  },
+  "lookDirections": {
+    "rows": [
+      9,
+      10
+    ],
+    "anglesDegrees": [
+      0.0,
+      22.5,
+      45.0,
+      67.5,
+      90.0,
+      112.5,
+      135.0,
+      157.5,
+      180.0,
+      202.5,
+      225.0,
+      247.5,
+      270.0,
+      292.5,
+      315.0,
+      337.5
+    ],
+    "order": "clockwise",
+    "zero": "up",
+    "ninety": "screen-right",
+    "oneEighty": "down",
+    "twoSeventy": "screen-left"
+  },
+  "license": "MIT",
+  "artwork": "AI-generated with OpenAI image generation, selected and assembled into a transparent sprite sheet.",
+  "sha256": "5ee19ac049dd2e0c320d566fa60d678fdbcf8d6c69ef933839b23bedb401f4bd"
+}
